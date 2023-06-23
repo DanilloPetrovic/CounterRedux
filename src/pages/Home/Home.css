@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: rgb(62, 58, 58);
+  padding-bottom: 50px;
+}
+
+.header {
+  background-color: rgb(36, 36, 36);
+  box-shadow: 0px 0px 10px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 17px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.counter {
+  background-color: rgb(50, 46, 46);
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.display {
+  background-color: rgb(226, 226, 226);
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.display p {
+  font-size: 30px;
+}
+
+.counter button {
+  margin-top: 20px;
+}
